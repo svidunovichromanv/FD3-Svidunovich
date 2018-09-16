@@ -56,3 +56,11 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
 }
+h1{
+    text-align: center;
+    padding: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2a2b47;
+    font-weight: 900;
+    text-transform: uppercase;
+}
