@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1678460-8907-466b-a6e0-cc8ce601f576" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filter/filter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filter/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filter/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filter/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filter/logicfilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filter/sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filter/viewfilter.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/atob/node-atob.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/atob/package.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/atob/test.js" />
@@ -3707,14 +3700,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/to-regex/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/to-regex/index.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/to-regex/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-clock-svg/darfild.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-clock-svg/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-clock-svg/js/clock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-clock-svg/jsx/clock.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ishop/darfild.css" afterPath="$PROJECT_DIR$/ishop/darfild.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -3880,7 +3866,7 @@
       <workItem from="1537300865220" duration="42000" />
       <workItem from="1537433000263" duration="14000" />
       <workItem from="1537433107633" duration="8509000" />
-      <workItem from="1537813537679" duration="21139000" />
+      <workItem from="1537813537679" duration="21262000" />
     </task>
     <task id="LOCAL-00001" summary="CSSHeader">
       <created>1537124385283</created>
@@ -3896,11 +3882,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537124781685</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CSSPaddingGoods+">
+      <created>1538065743848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538065743848</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54321000" />
+    <option name="totallyTimeSpent" value="54444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="869" y="0" width="1051" height="1040" extended-state="0" />
@@ -4003,6 +3996,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
