@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Darfild</title>
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="filter.css" />
+</head>
+<body>
+    <div id="container"></div>
+    <script src="list.js"></script>
+    <script src="filter.js"></script>
+    <script src="sort.js"></script>
+    <script src="viewfilter.js"></script>
+    <script src="logicfilter.js"></script>
+    <script>
+        const str = [
+            "Создать",
+            "проект",
+            "фильтр",
+            "в",
+            "про",
+            "пр",
+            "провед",
+            "проведя",
+            "проведа",
+            "проведв",
+            "проведх",
+            "папке",
+            "Компоненту",
+            "передаётся",
+            "массив",
+            "строк",
+            "Он",
+            "отображает их",
+            "вертикального",
+            "списка",
+            "Выше ",
+            "поле ",
+            "При вводе",
+            "строки",
+            "в том же ",
+            "aaaaaaaaaaa"
+        ];
+        ReactDOM.render(
+            React.createElement(LogicFilter,{str:str}),
+            document.getElementById('container')
+        );
+    </script>
+</body>
+</html>
