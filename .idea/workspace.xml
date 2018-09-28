@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1678460-8907-466b-a6e0-cc8ce601f576" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ishop2/darfild.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ishop2/darfild.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ishop2/index.html" />
+    <list default="true" id="f1678460-8907-466b-a6e0-cc8ce601f576" name="Default" comment="the second homework">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/atob/node-atob.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/atob/package.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/atob/test.js" />
@@ -3704,6 +3701,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/to-regex/index.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/to-regex/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ishop2/darfild.js" afterPath="$PROJECT_DIR$/ishop2/darfild.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -3717,11 +3715,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filter/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ishop2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#484#8533#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="darfild.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ishop2/darfild.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -3781,8 +3791,8 @@
         <option value="$PROJECT_DIR$/filter/filter.js" />
         <option value="$PROJECT_DIR$/filter/logicfilter.js" />
         <option value="$PROJECT_DIR$/filter/index.html" />
-        <option value="$PROJECT_DIR$/ishop2/darfild.js" />
         <option value="$PROJECT_DIR$/ishop2/darfild.css" />
+        <option value="$PROJECT_DIR$/ishop2/darfild.js" />
       </list>
     </option>
   </component>
@@ -3831,6 +3841,11 @@
             <path>
               <item name="FD3-Svidunovich" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD3-Svidunovich" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FD3-Svidunovich" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FD3-Svidunovich" type="462c0819:PsiDirectoryNode" />
+              <item name="ishop2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3885,7 +3900,7 @@
       <workItem from="1537300865220" duration="42000" />
       <workItem from="1537433000263" duration="14000" />
       <workItem from="1537433107633" duration="8509000" />
-      <workItem from="1537813537679" duration="33303000" />
+      <workItem from="1537813537679" duration="35373000" />
     </task>
     <task id="LOCAL-00001" summary="CSSHeader">
       <created>1537124385283</created>
@@ -3915,16 +3930,24 @@
       <option name="project" value="LOCAL" />
       <updated>1538065872293</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="the second homework">
+      <created>1538080168579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538080168579</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66485000" />
+    <option name="totallyTimeSpent" value="68555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="565" y="3" width="1355" height="1037" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.097087376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.097087376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.19716206" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -3952,7 +3975,8 @@
     <MESSAGE value="CSSHeader" />
     <MESSAGE value="CSSPaddingGoods+" />
     <MESSAGE value="filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter" />
+    <MESSAGE value="the second homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="the second homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4101,14 +4125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ishop2/darfild.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ishop2/darfild.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -4125,14 +4141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ishop2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filter/logicfilter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -4145,6 +4153,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ishop2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#484#8533#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ishop2/darfild.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
           <folding />
         </state>
       </provider>

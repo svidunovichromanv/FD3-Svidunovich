@@ -24,7 +24,7 @@ const Goods = React.createClass({
     },
 
     letschecked: function (e) {
-        this.setState({checkedGood: e.target.getAttribute("id")});
+        this.setState({checkedGood: e.currentTarget.getAttribute("id")});
     },
 
     letsdelete: function (e) {
