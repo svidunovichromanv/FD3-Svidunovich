@@ -9,54 +9,49 @@ const LogicFilter = React.createClass({
     getInitialState: function() {
         return {
             str: this.props.str,
+            userInput: "",
+            stateOfSort:false
         };
     },
 
-    sortList: function() {
-        if(this.filterStr.length===0){
-            this.filterStr=this.props.str;
+    changeView:function (boolORstr) {
+        if (typeof boolORstr === "string"){
+            this.setState({userInput: boolORstr}, this.filterList);
         }
-        let result;
-        if (this.sortState){
-            result = this.filterStr;
-        }else{
-
-            result =  this.filterStr.map((el)=>el.toLowerCase()).sort();
-        };
-        this.sortState=!this.sortState;
-        this.setState({str: result});
+        if (typeof boolORstr === "boolean"){
+            this.setState({stateOfSort: boolORstr}, this.filterList);
+        }
     },
 
-    sortState:false,
+    sortList: function(){
+        const arr= this.state.str.slice();
+        if (this.state.stateOfSort){
+            arr.sort();
+        }
+        this.setState({str: arr});
+    },
 
-    filterStr: [],
-
-    filterList: function (e) {
-        if (e){
-            this.filterStr=this.props.str.filter((nstr)=>{
-                e.toLowerCase();
+    filterList: function () {//chenge string
+        if (this.state.userInput){
+            this.setState({str: this.props.str.filter((nstr)=>{
+                this.state.userInput.toLowerCase();
                 nstr.toLowerCase();
-                if (nstr.slice(0,(e.length))===e){
+                if (nstr.slice(0,(this.state.userInput.length))===this.state.userInput){
                     return true;
                 };
                 return false;
-            });
-        }else{
-            this.filterStr=this.props.str;
-        };
-        if (this.sortState){
-            this.sortState=!this.sortState;
-            this.sortList();
-        }else{
-            this.setState({str:this.filterStr});
+            })},
+                this.sortList)
+        } else {
+            this.setState({str: this.props.str}, this.sortList);
         }
     },
 
     render: function () {
         return React.createElement(ViewFilter, {
             str:this.state.str,
-            cbSortList:this.sortList,
-            cbFilterList:this.filterList
+            cbSortList:this.changeView,
+            cbFilterList:this.changeView
         });
     },
 });

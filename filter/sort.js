@@ -5,11 +5,11 @@ const Sort = React.createClass({
         cbSortList:React.PropTypes.func.isRequired,
     },
 
-    sortList: function () {
-        this.props.cbSortList();
+    sortList: function (e) {
+        this.props.cbSortList(e.target.checked);
     },
 
     render: function () {
-        return React.DOM.input( {className:'Sort', type:'Checkbox', onClick:this.sortList}, null);
+        return React.DOM.input( {className:'Sort', type:'Checkbox', defaultChecked:false, onChange:this.sortList}, null);
     },
 });
