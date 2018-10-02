@@ -14,44 +14,38 @@ const LogicFilter = React.createClass({
         };
     },
 
-    changeView:function (boolORstr) {
-        if (typeof boolORstr === "string"){
-            this.setState({userInput: boolORstr}, this.filterList);
-        }
-        if (typeof boolORstr === "boolean"){
-            this.setState({stateOfSort: boolORstr}, this.filterList);
-        }
-    },
-
-    sortList: function(){
-        const arr= this.state.str.slice();
-        if (this.state.stateOfSort){
-            arr.sort();
-        }
-        this.setState({str: arr});
-    },
-
-    filterList: function () {//chenge string
+    filtAndSort: function (){
+        let arr = this.props.str.slice();
+        console.log("fd");
         if (this.state.userInput){
-            this.setState({str: this.props.str.filter((nstr)=>{
+            arr = arr.filter((nstr)=>{
                 this.state.userInput.toLowerCase();
                 nstr.toLowerCase();
                 if (nstr.slice(0,(this.state.userInput.length))===this.state.userInput){
                     return true;
                 };
                 return false;
-            })},
-                this.sortList)
-        } else {
-            this.setState({str: this.props.str}, this.sortList);
+            });
         }
+        if (this.state.sortState){
+            arr.sort();
+        }
+        this.setState({str:arr});
+    },
+
+    sortList: function(bool) {
+        this.setState({sortState:bool}, this.filtAndSort);
+    },
+
+    filterList: function (stri) {
+        this.setState({userInput:stri}, this.filtAndSort)
     },
 
     render: function () {
         return React.createElement(ViewFilter, {
             str:this.state.str,
-            cbSortList:this.changeView,
-            cbFilterList:this.changeView
+            cbSortList:this.sortList,
+            cbFilterList:this.filterList
         });
     },
 });
