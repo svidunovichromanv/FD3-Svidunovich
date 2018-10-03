@@ -3701,7 +3701,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/to-regex/index.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/to-regex/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filter/logicfilter.js" afterPath="$PROJECT_DIR$/filter/logicfilter.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -3728,8 +3727,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/filter/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="418">
+              <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
               <folding>
                 <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -3834,10 +3833,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="680" />
-    <option name="y" value="3" />
-    <option name="width" value="1240" />
-    <option name="height" value="1037" />
+    <option name="x" value="1" />
+    <option name="y" value="9" />
+    <option name="width" value="1915" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -3862,11 +3861,6 @@
               <item name="FD3-Svidunovich" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD3-Svidunovich" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FD3-Svidunovich" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD3-Svidunovich" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -3877,7 +3871,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../тестовые задания/clocks" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -3923,7 +3917,7 @@
       <workItem from="1537433000263" duration="14000" />
       <workItem from="1537433107633" duration="8509000" />
       <workItem from="1537813537679" duration="48933000" />
-      <workItem from="1538505038568" duration="232000" />
+      <workItem from="1538505038568" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="CSSHeader">
       <created>1537124385283</created>
@@ -3974,11 +3968,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538234211461</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="the second homework (fix filter)">
+      <created>1538505331870</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538505331870</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82347000" />
+    <option name="totallyTimeSpent" value="83650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -4016,7 +4017,8 @@
     <MESSAGE value="the second homework" />
     <MESSAGE value="fixed (click on img)" />
     <MESSAGE value="fixed filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed filter" />
+    <MESSAGE value="the second homework (fix filter)" />
+    <option name="LAST_COMMIT_MESSAGE" value="the second homework (fix filter)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4193,8 +4195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/filter/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="418">
+          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding>
             <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
