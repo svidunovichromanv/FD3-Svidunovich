@@ -55,7 +55,7 @@ class Goods extends  React.Component {
         let tmpList = this.state.listOfGoods.slice();
         for (let i = 0; i<tmpList.length; i++){
             if (+tmpList[i].vendorCode===+this.state.editGood.vendorCode){
-                tmpList[i]=newGood;
+                tmpList[i]=newGood || this.props.listOfGoods[i];
             }
         }
         this.setState({listOfGoods:tmpList}, this.closeModal);

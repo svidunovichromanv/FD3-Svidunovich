@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1678460-8907-466b-a6e0-cc8ce601f576" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ishop3/components/Good.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ishop3/components/Goods.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ishop3/components/Goods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ishop3/components/ModalWindow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ishop3/components/ModalWindow.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ishop3/components/darfild.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ishop3/App.js" afterPath="$PROJECT_DIR$/ishop3/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ishop3/index.html" afterPath="$PROJECT_DIR$/ishop3/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ishop3/components/Main.js" afterPath="$PROJECT_DIR$/ishop3/components/Good.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ishop3/components/Goods.js" afterPath="$PROJECT_DIR$/ishop3/components/Goods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ishop3/components/ModalWindow.css" afterPath="$PROJECT_DIR$/ishop3/components/ModalWindow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ishop3/components/ModalWindow.js" afterPath="$PROJECT_DIR$/ishop3/components/ModalWindow.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +34,8 @@
       <file leaf-file-name="Goods.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ishop3/components/Goods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="60" column="62" lean-forward="true" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
+            <state relative-caret-position="242">
+              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -62,10 +56,13 @@
       <file leaf-file-name="ModalWindow.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ishop3/components/ModalWindow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="196">
+              <caret line="89" column="117" lean-forward="false" selection-start-line="89" selection-start-column="117" selection-end-line="89" selection-end-column="117" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#941#1229#0" expanded="false" />
+                <element signature="e#965#1221#0" expanded="false" />
+                <element signature="e#1345#2410#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -84,8 +81,8 @@
       <file leaf-file-name="ModalWindow.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ishop3/components/ModalWindow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="352">
+              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -286,7 +283,7 @@
       <workItem from="1537433107633" duration="8509000" />
       <workItem from="1537813537679" duration="48933000" />
       <workItem from="1538505038568" duration="2299000" />
-      <workItem from="1538770556200" duration="39352000" />
+      <workItem from="1538770556200" duration="44028000" />
     </task>
     <task id="LOCAL-00001" summary="CSSHeader">
       <created>1537124385283</created>
@@ -358,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538905417971</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ishop3_edit without validation">
+      <created>1538941445730</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1538941445730</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123766000" />
+    <option name="totallyTimeSpent" value="128442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -401,7 +405,8 @@
     <MESSAGE value="fixed filter" />
     <MESSAGE value="the second homework (fix filter)" />
     <MESSAGE value="the second homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="the second homework" />
+    <MESSAGE value="ishop3_edit without validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="ishop3_edit without validation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,22 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ishop3/components/ModalWindow.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ishop3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filter/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -679,18 +668,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ishop3/darfild.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="26" column="70" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ishop3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -705,6 +694,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ishop3/components/Goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ishop3/components/ModalWindow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ishop3/goods.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -713,22 +728,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ishop3/components/Goods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="60" column="62" lean-forward="true" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ishop3/components/ModalWindow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="196">
+          <caret line="89" column="117" lean-forward="false" selection-start-line="89" selection-start-column="117" selection-end-line="89" selection-end-column="117" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#941#1229#0" expanded="false" />
+            <element signature="e#965#1221#0" expanded="false" />
+            <element signature="e#1345#2410#0" expanded="false" />
           </folding>
         </state>
       </provider>

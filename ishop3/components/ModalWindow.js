@@ -6,6 +6,7 @@ import './ModalWindow.css';
 
 class ModalWindow extends React.Component{
     static propTypes = {
+        cbAddNew:PropTypes.func.isRequired,
         editGood: PropTypes.shape({
             name: PropTypes.string.isRequired,
             description:PropTypes.string.isRequired,
@@ -25,17 +26,55 @@ class ModalWindow extends React.Component{
         validPackaging:true,
         validVendorCode:true,
         validRemainder:true,
+        valid:true,
 
     };
 
     closeModal=()=>{
-        this.props.cbcloseModal();
+        this.props.cbAddNew();
+    };
+
+    validAll = ()=>{
+        this.setState({valid:(
+            this.state.validName &&
+            this.state.validDescription &&
+            this.state.validPrice &&
+            this.state.validPackaging &&
+            this.state.validVendorCode &&
+            this.state.validRemainder
+        )});
     };
 
     setChanges =(e)=>{
-        +e.target.value?
-            this.state.editGood[e.target.getAttribute("id")]=+e.target.value:
-            this.state.editGood[e.target.getAttribute("id")]=e.target.value;
+        let elID = e.target.getAttribute("id");
+        let val = e.target.value;
+        switch (elID) {
+            case "name":
+
+                this.setState({validName:!!val && typeof val === "string"}, this.validAll);
+                break;
+            case "description":
+                this.setState({validDescription:!!val && typeof val === "string"}, this.validAll);
+                break;
+            case "price":
+                this.setState({validPrice:!!val && typeof +val === "number"}, this.validAll);
+                break;
+            case "pictures":
+                this.setState({validPictures:!!val && typeof val === "string"}, this.validAll);
+                break;
+            case "packaging":
+                this.setState({validPackaging:!!val && typeof val === "string"}, this.validAll);
+                break;
+            case "remainder":
+                this.setState({validRemainder:!!val && typeof +val === "number"}, this.validAll);
+                break;
+            case "vendorCode":
+                this.setState({validVendorCode:!!val && typeof +val === "number"}, this.validAll);
+                break;
+        };
+        +val?
+            this.state.editGood[elID]=+val:
+            this.state.editGood[elID]=val;
         this.setState({editGood:this.state.editGood});
     };
 
@@ -48,7 +87,7 @@ class ModalWindow extends React.Component{
             <div className="Modal">
                 <form className="ModalForm">
                     <label htmlFor="name">Название:</label>
-                    <input id="name" onChange={this.setChanges} defaultValue={this.props.editGood.name}/><br/>
+                    <input id="name" onChange={this.setChanges} defaultValue={this.props.editGood.name}/><span !!!!!!>{Введите корректное название}</span><br/>
 
                     <label htmlFor="description">Описвние:</label>
                     <input id="description" onChange={this.setChanges} defaultValue={this.props.editGood.description}/><br/>
@@ -69,7 +108,7 @@ class ModalWindow extends React.Component{
                     <input id="remainder" onChange={this.setChanges} defaultValue={this.props.editGood.remainder}/><br/>
 
                 </form>
-                <button onClick={this.addNew}>Сохранить</button><button onClick={this.closeModal}>Выйти</button>
+                <button onClick={this.addNew} disabled={!this.state.valid}>Сохранить</button><button onClick={this.closeModal}>Выйти</button>
             </div>
         )
     };
