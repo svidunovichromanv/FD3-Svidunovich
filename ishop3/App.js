@@ -3,13 +3,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Main from './components/Main';
+import Goods from './components/Goods';
 
 let headerText = 'Сухой корм для собак и щенков';
 const goods = require('./goods.json');
 
 ReactDOM.render(
-    <Main
+    <Goods
         header={headerText}
         listOfGoods={goods}
     />
