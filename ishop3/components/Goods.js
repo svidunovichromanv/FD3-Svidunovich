@@ -36,13 +36,24 @@ class Goods extends  React.Component {
 
     letsdelete = (id) => {
         if (this.state.checkedGood===id){
-            this.setState({listOfGoods: this.state.listOfGoods.filter(item => this.state.checkedGood!=item.vendorCode)});
+            this.setState({listOfGoods: this.state.listOfGoods.filter(item => this.state.checkedGood!==item.vendorCode)});
         }
     };
 
     letsedit = (id)=>{
         if (this.state.checkedGood===id){
             let good  = this.state.listOfGoods.filter(item=>(item.vendorCode+"")===id)[0];
+            this.setState({editState:1, editGood:good});
+        }else if(typeof id === "object"){
+            let good={
+                name:"",
+                description:"",
+                price:"",
+                pictures: "",
+                packaging:"",
+                vendorCode:"",
+                remainder:""
+            };
             this.setState({editState:1, editGood:good});
         }
     };
@@ -89,6 +100,7 @@ class Goods extends  React.Component {
         return (
             <div className="GoodsContainer">
                 <h1 className="Header">{this.props.header}</h1>
+                <button onClick={this.letsedit}>Add</button>
                 <div className="Goods">{GOODSCode}</div>
                 <div style={modalStyle} className="ModalWindow">{modalCode}</div>
             </div>
