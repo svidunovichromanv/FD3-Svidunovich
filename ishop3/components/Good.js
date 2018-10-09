@@ -26,6 +26,7 @@ class Good extends React.Component {
 
     toDelete = (e)=>{
         let id = e.target.getAttribute("id");
+        console.log(id);
         this.props.cbLetsDelete(id);
     };
 

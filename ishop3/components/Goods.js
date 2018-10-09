@@ -28,6 +28,7 @@ class Goods extends  React.Component {
         editState:0,
         checkedGood: "",
         listOfGoods:this.props.listOfGoods,
+        stateOfAdd:0,
     };
 
     letschecked = (id) => {
@@ -36,7 +37,7 @@ class Goods extends  React.Component {
 
     letsdelete = (id) => {
         if (this.state.checkedGood===id){
-            this.setState({listOfGoods: this.state.listOfGoods.filter(item => this.state.checkedGood!==item.vendorCode)});
+            this.setState({listOfGoods: this.state.listOfGoods.filter(item => this.state.checkedGood!==""+item.vendorCode)});
         }
     };
 
@@ -54,22 +55,33 @@ class Goods extends  React.Component {
                 vendorCode:"",
                 remainder:""
             };
-            this.setState({editState:1, editGood:good});
+            this.setState({editState:1, editGood:good, stateOfAdd:1});
         }
     };
 
     closeModal=()=>{
-        this.setState({editState:0, editGood:null});
+        if (this.state.stateOfAdd===0){
+            this.setState({editState:0, editGood:null});
+        } else {
+            this.setState({editState:0, editGood:null, stateOfAdd:0});
+        }
     };
 
     updateGoods=(newGood)=>{
         let tmpList = this.state.listOfGoods.slice();
-        for (let i = 0; i<tmpList.length; i++){
-            if (+tmpList[i].vendorCode===+this.state.editGood.vendorCode){
-                tmpList[i]=newGood || this.props.listOfGoods[i];
+        if (this.state.stateOfAdd===0){
+            for (let i = 0; i<tmpList.length; i++){
+                if (+tmpList[i].vendorCode===+this.state.editGood.vendorCode){
+                    tmpList[i]=newGood || this.state.listOfGoods[i];
+                }
             }
+            this.setState({listOfGoods:tmpList}, this.closeModal);
+        }else{
+            tmpList.unshift(newGood);
+            console.log(tmpList[0].name);
+            this.setState({listOfGoods:tmpList,stateOfAdd:0}, this.closeModal);
         }
-        this.setState({listOfGoods:tmpList}, this.closeModal);
+
     };
 
     render(){
@@ -100,7 +112,7 @@ class Goods extends  React.Component {
         return (
             <div className="GoodsContainer">
                 <h1 className="Header">{this.props.header}</h1>
-                <button onClick={this.letsedit}>Add</button>
+                <button className="AddBtn" onClick={this.letsedit}>Add</button>
                 <div className="Goods">{GOODSCode}</div>
                 <div style={modalStyle} className="ModalWindow">{modalCode}</div>
             </div>

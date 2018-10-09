@@ -31,7 +31,7 @@ class ModalWindow extends React.Component{
     };
 
     closeModal=()=>{
-        this.props.cbAddNew();
+        this.props.cbcloseModal();
     };
 
     validAll = ()=>{
@@ -105,7 +105,7 @@ class ModalWindow extends React.Component{
 
                     <label htmlFor="pictures">Ссылка на картинку:</label>
                     <input id="pictures" onChange={this.setChanges} defaultValue={this.props.editGood.pictures}/>
-                    <span style={{display:(this.state.validPrice?"none":"inline")}}>Введите ссыдку на картинку</span>
+                    <span style={{display:(this.state.validPictures?"none":"inline")}}>Введите ссыдку на картинку</span>
                     <br/>
 
                     <label htmlFor="packaging">Фасовка:</label>

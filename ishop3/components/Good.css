@@ -52,16 +52,24 @@ img {
     font-size: .9em;
 }
 
-.DeleteBTN{
+.DeleteBTN,
+.EditBTN{
     align-self: flex-end;
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: grey;
     border: none;
+    top: 10px;
     border-radius: 2px;
     padding: 3px;
 }
+.DeleteBTN{
+    right: 10px;
+    background-color: #696969;
+}
+.EditBTN{
+    left: 10px;
+    background-color: #9c9c9c;
+}
+
 .Checked{
     background-color: lightcoral;
 }
