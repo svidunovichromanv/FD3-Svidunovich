@@ -49,11 +49,11 @@ class Goods extends  React.Component {
             let good={
                 name:"",
                 description:"",
-                price:"",
+                price:NaN,
                 pictures: "",
                 packaging:"",
-                vendorCode:"",
-                remainder:""
+                vendorCode:NaN,
+                remainder:NaN
             };
             this.setState({editState:1, editGood:good, stateOfAdd:1});
         }
