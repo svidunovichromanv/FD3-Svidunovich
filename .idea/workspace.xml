@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1678460-8907-466b-a6e0-cc8ce601f576" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/_livebuild.url" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/components/MobileClient.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/components/MobileClient.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/components/MobileCompany.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/components/MobileCompany.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/webpack.config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mobile/components/MobileClient.js" afterPath="$PROJECT_DIR$/Mobile/components/MobileClient.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mobile/components/MobileCompany.js" afterPath="$PROJECT_DIR$/Mobile/components/MobileCompany.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,25 +30,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MobileCompany.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MobileCompany.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mobile/components/MobileCompany.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
-              <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+            <state relative-caret-position="374">
+              <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#211#455#0" expanded="false" />
+                <element signature="e#468#533#0" expanded="false" />
+                <element signature="e#555#593#0" expanded="false" />
+                <element signature="e#615#656#0" expanded="false" />
+                <element signature="e#699#1132#0" expanded="false" />
+                <element signature="e#1160#1195#0" expanded="false" />
+                <element signature="e#1220#1255#0" expanded="false" />
+                <element signature="e#1279#1662#0" expanded="false" />
+                <element signature="e#1686#1860#0" expanded="false" />
+                <element signature="e#1888#2276#0" expanded="false" />
+                <element signature="e#2299#2497#0" expanded="false" />
+                <element signature="n#!!block;n#render#0;n#MobileCompany#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MobileClient.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MobileClient.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mobile/components/MobileClient.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="306">
+              <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#653#703#0" expanded="false" />
+                <element signature="e#790#1157#0" expanded="false" />
+                <element signature="e#1183#1229#0" expanded="false" />
+                <element signature="e#1251#1290#0" expanded="false" />
+                <element signature="n#!!block;n#render#0;n#MobileClient#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -151,10 +159,10 @@
         <option value="$PROJECT_DIR$/RainbowFrame/components/RainbowFramea.js" />
         <option value="$PROJECT_DIR$/br2jsx/App.js" />
         <option value="$PROJECT_DIR$/br2jsx/components/Br2jsx.js" />
-        <option value="$PROJECT_DIR$/Mobile/components/MobileCompany.js" />
         <option value="$PROJECT_DIR$/Mobile/components/MobileCompany.css" />
         <option value="$PROJECT_DIR$/Mobile/components/MobileClient.css" />
         <option value="$PROJECT_DIR$/Mobile/components/MobileClient.js" />
+        <option value="$PROJECT_DIR$/Mobile/components/MobileCompany.js" />
       </list>
     </option>
   </component>
@@ -294,7 +302,7 @@
       <workItem from="1539443950887" duration="620000" />
       <workItem from="1539444599372" duration="536000" />
       <workItem from="1539493813353" duration="3815000" />
-      <workItem from="1539545628619" duration="9921000" />
+      <workItem from="1539545628619" duration="20984000" />
     </task>
     <task id="LOCAL-00001" summary="CSSHeader">
       <created>1537124385283</created>
@@ -415,11 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539547027760</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="mobile edit and delete">
+      <created>1539885708526</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1539885708526</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162277000" />
+    <option name="totallyTimeSpent" value="173340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="474" y="0" width="1442" height="1040" extended-state="0" />
@@ -489,11 +504,12 @@
     <MESSAGE value="ishop3_edit good css" />
     <MESSAGE value="RainbowFrame" />
     <MESSAGE value="br2jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="br2jsx" />
+    <MESSAGE value="mobile edit and delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile edit and delete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -743,14 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mobile/components/MobileClient.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ishop3/components/Good.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -770,6 +778,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mobile/components/MobileClient.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mobile/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -780,22 +796,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mobile/components/MobileCompany.js">
+    <entry file="file://$PROJECT_DIR$/Mobile/components/MobileClient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        <state relative-caret-position="306">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#653#703#0" expanded="false" />
+            <element signature="e#790#1157#0" expanded="false" />
+            <element signature="e#1183#1229#0" expanded="false" />
+            <element signature="e#1251#1290#0" expanded="false" />
+            <element signature="n#!!block;n#render#0;n#MobileClient#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mobile/components/MobileClient.js">
+    <entry file="file://$PROJECT_DIR$/Mobile/components/MobileCompany.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="374">
+          <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#211#455#0" expanded="false" />
+            <element signature="e#468#533#0" expanded="false" />
+            <element signature="e#555#593#0" expanded="false" />
+            <element signature="e#615#656#0" expanded="false" />
+            <element signature="e#699#1132#0" expanded="false" />
+            <element signature="e#1160#1195#0" expanded="false" />
+            <element signature="e#1220#1255#0" expanded="false" />
+            <element signature="e#1279#1662#0" expanded="false" />
+            <element signature="e#1686#1860#0" expanded="false" />
+            <element signature="e#1888#2276#0" expanded="false" />
+            <element signature="e#2299#2497#0" expanded="false" />
+            <element signature="n#!!block;n#render#0;n#MobileCompany#0" expanded="false" />
           </folding>
         </state>
       </provider>
