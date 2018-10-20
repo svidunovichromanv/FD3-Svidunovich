@@ -7,6 +7,7 @@ class MobileClient extends React.PureComponent {
 
   static propTypes = {
     cbDelete: PropTypes.func.isRequired,
+    //cbEdit: PropTypes.func.isRequired,
     info:PropTypes.shape({
       id: PropTypes.number.isRequired,
       fio: PropTypes.string.isRequired,
@@ -35,7 +36,8 @@ class MobileClient extends React.PureComponent {
   editCl = () =>{
     if (this.state.editState && (this.balance!==this.state.info.balance || this.fio!==this.state.info.fio)){
       let info = {...this.state.info, fio:this.fio, balance:+this.balance};
-      this.props.cbEdit(info);
+      this.setState({info:info});
+      //this.props.cbEdit(info);
     }
       this.setState( (prevState) => { return {editState:!prevState.editState}; } );//рендер при любом нажатии, так и должно быть, вроде....
   };

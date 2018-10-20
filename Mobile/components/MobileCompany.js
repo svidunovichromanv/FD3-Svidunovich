@@ -89,12 +89,12 @@ class MobileCompany extends React.PureComponent {
         this.setState({clients:tempArr});
     };
 
-    editCl=(newCl)=>{
+    /*editCl=(newCl)=>{
         let tempArr=this.state.clients;
         tempArr=tempArr.map((client)=>newCl.id===client.id?newCl:client);
         this.clientStorge=tempArr;
         this.setState({clients:tempArr});
-    };
+    };*/
 
     clientStorge=[...this.state.clients];
   
@@ -103,7 +103,7 @@ class MobileCompany extends React.PureComponent {
     console.log("MobileCompany render");
 
     var clientsCode=this.state.clients.map( client =>
-      <MobileClient key={client.id} info={client} cbDelete={this.removeClient}  cbEdit={this.editCl}/>
+      <MobileClient key={client.id} info={client} cbDelete={this.removeClient}  /*cbEdit={this.editCl}*//>
     );
 
     return (
