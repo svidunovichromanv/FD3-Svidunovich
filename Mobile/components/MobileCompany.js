@@ -46,7 +46,6 @@ class MobileCompany extends React.PureComponent {
       this.setState({clients:newClients});
   };
 
-  
   setBalance1 = () => {
     this.setBalance(105,230);
   };
@@ -64,11 +63,30 @@ class MobileCompany extends React.PureComponent {
               changed=true;
           }
       } );
+      this.clientStorge.forEach( (c,i) => {
+          if ( c.id===id ) {
+              this.clientStorge.splice(i,1);
+              changed=true;
+          }
+      } );
       if ( changed ) {
-          this.clientStorge=newClients;
           this.setState({clients: newClients});
       }
   };
+
+    editClient=(id, info)=>{
+        let newClients=[...this.state.clients];
+        newClients.forEach( (c,i) => {
+            if ( c.id===id ) {
+                newClients.splice(i,1,info);
+            }
+        } );
+        this.clientStorge.forEach( (c,i) => {
+            if ( c.id===id ) {
+                this.clientStorge.splice(i,1,info);
+            }
+        } );
+    };
 
     addNewClient=()=>{
       let tempArr = [...this.state.clients, {id:Math.random(), fio:"enter name", balance:0}];
@@ -78,23 +96,13 @@ class MobileCompany extends React.PureComponent {
 
     filterClient = (e) =>{
         let tempArr=[...this.clientStorge];
-        console.log(tempArr);
         if (e.target.value==="+"){
             tempArr=tempArr.filter(cl=>+cl.balance>0);
-            console.log(tempArr);
         }else if (e.target.value==="-"){
             tempArr=tempArr.filter(cl=>+cl.balance<=0);
-            console.log(tempArr);
         }
         this.setState({clients:tempArr});
     };
-
-    /*editCl=(newCl)=>{
-        let tempArr=this.state.clients;
-        tempArr=tempArr.map((client)=>newCl.id===client.id?newCl:client);
-        this.clientStorge=tempArr;
-        this.setState({clients:tempArr});
-    };*/
 
     clientStorge=[...this.state.clients];
   
@@ -103,7 +111,7 @@ class MobileCompany extends React.PureComponent {
     console.log("MobileCompany render");
 
     var clientsCode=this.state.clients.map( client =>
-      <MobileClient key={client.id} info={client} cbDelete={this.removeClient}  /*cbEdit={this.editCl}*//>
+      <MobileClient key={client.id} info={client} cbDelete={this.removeClient} cbEdit={this.editClient}/>
     );
 
     return (

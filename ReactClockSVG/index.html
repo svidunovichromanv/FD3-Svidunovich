@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Darfild</title>
+</head>
+<body>
+<div id="container"></div>
+<script src="https://unpkg.com/react@15/dist/react.js"></script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+<script src="darfild.js"></script>
+<link rel="stylesheet" type="text/css" href="darfild.css" />
+
+<script>
+    let headerText = 'Сухой корм для собак и щенков';
+    const goods = [
+        {
+            name:'Brit Premium Puppies',
+            description:'Корм для щенков всех пород',
+            price:8.40,
+            pictures: "https://garfield.by/upload/iblock/6cb/6cb35dcee8674c964dd80e785980c9e4.png",
+            packaging:'1 кг',
+            vendorCode:132352,
+            remainder:101,
+        },
+        {
+            name:'Farmina N&D GF Puppy Mini&Medium Chicken & Pomegranate',
+            description:'Для щенков мелких и средних пород, беззерновой, курица и ',
+            price:26.20,
+            pictures: "https://www.farmina.com/fotoprodotti/95_37_ND-Grain-Free-canine-Adult-Maxi-CHICKEN@web.png",
+            packaging:'800 г',
+            vendorCode:3278,
+            remainder:11,
+        },
+        {
+            name:'Chicopee HNL Puppy Lamb & Potato',
+            description:'Беззерновой корм для щенков всех пород.',
+            price:30.00,
+            pictures: "https://garfield.by/upload/iblock/e24/e24d8c7cb17887e82635a74623bd1452.jpg",
+            packaging:'2 кг',
+            vendorCode:8129002,
+            remainder:111,
+        },
+        {
+            name:'Brit Premium by Nature Junior S',
+            description:'Корм для молодых собак мелких пород, 1-12 месяцев.',
+            price:8.40,
+            pictures: "https://garfield.by/upload/iblock/e83/e83b8658bdfa1daefee929dd7c8b75fa.png",
+            packaging:'1 кг',
+            vendorCode:526253,
+            remainder:1001,
+        },
+        {
+            name:'Farmina N&D GF Large Puppy Chicken & Pomegranate',
+            description:'Для щенков крупных пород, беззерновой, курица и гранат.',
+            price:69.50,
+            pictures: "https://garfield.by/upload/iblock/2c6/2c632b93de572fe4bca277ddf4034b18.png",
+            packaging:'2,5 кг',
+            vendorCode:36,
+            remainder:22,
+        },
+        {
+            name:'Hill\'s SP Canine Mature Adult Active Longevity Medium L&R',
+            description:'Для пожилых собак, ягненок и рис.',
+            price:49.80,
+            pictures: "https://garfield.by/upload/iblock/b5b/b5b75c0a05bd14245f7bbc72b4830d94.jpg",
+            packaging:'3 кг',
+            vendorCode:7538,
+            remainder:54,
+        },
+        {
+            name:'Chicopee HNL Adult Lamb & Potato',
+            description:'Беззерновой корм для взрослых собак всех пород.',
+            price:30.00,
+            pictures: "https://garfield.by/upload/iblock/c55/c5501ee7c9d5b31245474c6900662357.jpg",
+            packaging:'2 кг',
+            vendorCode:8210002,
+            remainder:21,
+        },
+        {
+            name:'Brit Premium Junior M',
+            description:'Корм для молодых собак средних пород, 2-12 месяцев.',
+            price:7.70,
+            pictures: "https://garfield.by/upload/iblock/ecc/ecc245e4be89714b8cbf42b5efcf5800.jpeg",
+            packaging:'1 кг',
+            vendorCode:526314,
+            remainder:48,
+        },
+        {
+            name:'ACANA GRASSLANDS Dog (Ягненок)',
+            description:'Беззерновой корм с ягненком.',
+            price:12.00,
+            pictures: "https://static-eu.insales.ru/images/products/1/3437/102747501/ACANA_dog_GRASSLANDS_front.jpg",
+            packaging:'340 г',
+            vendorCode:2105,
+            remainder:55,
+        },
+        {
+            name:'Farmina N&D GF Adult Dog Chicken & Pomegranate',
+            description:'Для взрослых собак, беззерновой, курица и гранат.',
+            price:28.80,
+            pictures: "https://garfield.by/upload/iblock/f24/f243a7882dbe16daad43429f4280e519.png",
+            packaging:'800 г',
+            vendorCode:362,
+            remainder:77,
+        },
+        {
+            name:'Hill\'s SP Canine Mature Adult Active Longevity Medium Ckn',
+            description:'Для пожилых собак, курица.',
+            price:119.40,
+            pictures: "https://garfield.by/upload/iblock/2fe/2fee60be18c54b2b854c2f0b42fee8ea.jpg",
+            packaging:'12 кг',
+            vendorCode:9272,
+            remainder:94,
+        },
+        {
+            name:'Chicopee HNL Soft Adult Ostrich & Potato',
+            description:'Полувлажный беззерновой корм для взрослых собак.',
+            price:30.00,
+            pictures: "https://garfield.by/upload/iblock/32e/32e759a1eeb3e4cec5ccf0cb43f04094.jpg",
+            packaging:'2 кг',
+            vendorCode:5262002,
+            remainder:334,
+        },
+        {
+            name:'Brit Premium by Nature Junior L',
+            description:'Корм для молодых собак крупных пород, 4-24 месяца.',
+            price:22.40,
+            pictures: "https://garfield.by/upload/iblock/4e9/4e9707935798cd8ccc6a8555409fb2f7.png",
+            packaging:'3 кг',
+            vendorCode:526420,
+            remainder:5,
+        },
+        {
+            name:'Farmina N&D GF Adult Dog Boar & Apple',
+            description:'Для взрослых собак, беззерновой, кабан и яблоко.',
+            price:28.80,
+            pictures: "https://garfield.by/upload/iblock/e81/e813044b57e3a7a5468b62e9af2068c0.png",
+            packaging:'800 г',
+            vendorCode:3789,
+            remainder:84,
+        },
+        {
+            name:'Chicopee HNL Active Salmon & Potato',
+            description:'Беззерновой корм для собак с повышенной активностью.',
+            price:30.00,
+            pictures: "https://garfield.by/upload/iblock/cea/ceade6c89b08c6e89f4869064537adf7.jpg",
+            packaging:'2 кг',
+            vendorCode:8179002,
+            remainder:54,
+        },
+        {
+            name:'Brit Premium Junior XL',
+            description:'Корм для молодых собак гигантских пород, 3-30 месяцев.',
+            price:102.20,
+            pictures: "https://garfield.by/upload/iblock/a2a/a2ab7e820e8dce8f51772a3c58ee7daf.png",
+            packaging:'15 кг',
+            vendorCode:526505,
+            remainder:21,
+        },
+        {
+            name:'Farmina N&D GF Adult Medium Lamb & Blueberry',
+            description:'Для взрослых собак, беззерновой, ягненок и черника.',
+            price:28.80,
+            pictures: "https://garfield.by/upload/iblock/680/680b4f44b0ab12e7f2e2d9e76586959a.png",
+            packaging:'800 г',
+            vendorCode:39965,
+            remainder:84,
+        },
+        {
+            name:'Chicopee CNL Mini Puppy Lamb & Rice',
+            description:'Сухой корм для щенков миниатюрных пород.',
+            price:8.90,
+            pictures: "https://garfield.by/upload/iblock/a37/a370064de9e94af6d0645d624c388168.jpg",
+            packaging:'500 г',
+            vendorCode:82860005,
+            remainder:5,
+        },
+        {
+            name:'Brit Premium by Nature Adult S',
+            description:'Корм для взрослых собак мелких пород, 1–10 кг.',
+            price:7.40,
+            pictures: "https://garfield.by/upload/iblock/124/124cd300ad6dc6a5f814069277367772.jpeg",
+            packaging:'1 кг',
+            vendorCode:132383,
+            remainder:11,
+        },
+        {
+            name:'Farmina N&D GF Adult Dog Fish & Orange',
+            description:'Для взрослых собак, беззерновой, треска и апельсин.',
+            price:28.80,
+            pictures: "https://images.by.prom.st/84597517_w0_h0_cid233654_pid63621971-8161a893.png",
+            packaging:'800 г',
+            vendorCode:4076,
+            remainder:62,
+        },
+
+    ];
+    ReactDOM.render(
+        React.createElement(Goods,{header:headerText,listOfGoods:goods}),
+        document.getElementById('container')
+    );
+</script>
+</body>
+</html>
