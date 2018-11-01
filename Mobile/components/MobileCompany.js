@@ -118,7 +118,7 @@ class MobileCompany extends React.PureComponent {
       <div className='MobileCompany'>
         <input type="button" value="=МТС" onClick={this.setName1} />
         <input type="button" value="=Velcom" onClick={this.setName2} />
-            <select defaultValue={"all"} onChange={this.filterClient}>
+            <select id="filter" defaultValue={"all"} onChange={this.filterClient}>
               <option value="all">All</option>
               <option value="+">+</option>
               <option value="-">-</option>
@@ -129,7 +129,7 @@ class MobileCompany extends React.PureComponent {
         </div>
         <input type="button" value="Сидоров=230" onClick={this.setBalance1} />
         <input type="button" value="Сидоров=250" onClick={this.setBalance2} />
-        <input type="button" value="add" onClick={this.addNewClient} />
+        <input id="add" type="button" value="add" onClick={this.addNewClient} />
       </div>
     )
     ;

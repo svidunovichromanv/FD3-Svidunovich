@@ -3,25 +3,25 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import CounterButton from '../components/CounterButton';
+import MobileCompany from '../components/MobileCompany';
 
 test('работа CounterButton', () => {
 
   const component = renderer.create(
-    <CounterButton />
+    <MobileCompany />
   );
 
   let componentTree=component.toJSON();
   expect(componentTree).toMatchSnapshot();
 
-  componentTree.props.onClick();
+  componentTree.find("#add").onClick();
 
   componentTree=component.toJSON();
   expect(componentTree).toMatchSnapshot();
 
-  componentTree.props.onClick();
+  /*componentTree.props.onClick();
   
   componentTree=component.toJSON();
-  expect(componentTree).toMatchSnapshot();
+  expect(componentTree).toMatchSnapshot();*/
     
 });
