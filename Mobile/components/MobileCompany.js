@@ -5,6 +5,10 @@ import MobileClient from './MobileClient';
 
 import './MobileCompany.css';
 
+import { ClientStorage } from '../classes/clientStorage';
+
+
+
 class MobileCompany extends React.PureComponent {
 
   static propTypes = {
@@ -22,6 +26,8 @@ class MobileCompany extends React.PureComponent {
     name: this.props.name,
     clients: this.props.clients,
   };
+
+  clientsStore = new ClientStorage(this.props.clients);
 
   setName1 = () => {
     this.setState({name:'МТС'});
@@ -54,63 +60,31 @@ class MobileCompany extends React.PureComponent {
     this.setBalance(105,250);
   };
 
-  removeClient=(id)=>{
-      let changed=false;
-      let newClients=[...this.state.clients]; // копия самого массива клиентов
-      newClients.forEach( (c,i) => {
-          if ( c.id===id ) {
-              newClients.splice(i,1);
-              changed=true;
-          }
-      } );
-      this.clientStorge.forEach( (c,i) => {
-          if ( c.id===id ) {
-              this.clientStorge.splice(i,1);
-              changed=true;
-          }
-      } );
-      if ( changed ) {
-          this.setState({clients: newClients});
-      }
-  };
+    removeClient=(id)=>{
+        this.clientsStore.removeClient(id);
+        this.setState({clients: this.clientsStore.clientsView});
+    };
 
     editClient=(id, info)=>{
-        let newClients=[...this.state.clients];
-        newClients.forEach( (c,i) => {
-            if ( c.id===id ) {
-                newClients.splice(i,1,info);
-            }
-        } );
-        this.clientStorge.forEach( (c,i) => {
-            if ( c.id===id ) {
-                this.clientStorge.splice(i,1,info);
-            }
-        } );
+        this.clientsStore.editClient(id, info);
+        this.setState({clients: this.clientsStore.clientsView});
     };
 
     addNewClient=()=>{
-      let tempArr = [...this.state.clients, {id:Math.random(), fio:"enter name", balance:0}];
-      this.clientStorge=tempArr;
-      this.setState({clients:tempArr});
+        this.clientsStore.addClient();
+        this.setState({clients: this.clientsStore.clientsView});
     };
 
     filterClient = (e) =>{
-        let tempArr=[...this.clientStorge];
-        if (e.target.value==="+"){
-            tempArr=tempArr.filter(cl=>+cl.balance>0);
-        }else if (e.target.value==="-"){
-            tempArr=tempArr.filter(cl=>+cl.balance<=0);
-        }
-        this.setState({clients:tempArr});
+        this.clientsStore.filterClient(e.target.value);
+        this.setState({clients: this.clientsStore.clientsView});
     };
-
-    clientStorge=[...this.state.clients];
   
   render() {
 
     console.log("MobileCompany render");
 
-    var clientsCode=this.state.clients.map( client =>
+    var clientsCode=this.state.clients.map(client =>
       <MobileClient key={client.id} info={client} cbDelete={this.removeClient} cbEdit={this.editClient}/>
     );
 
