@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1678460-8907-466b-a6e0-cc8ce601f576" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/__tests__/SnapShot-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile/classes/clientStorage.js" />
+    <list default="true" id="f1678460-8907-466b-a6e0-cc8ce601f576" name="Default" comment="try to test Mobile, snapShot is't successful">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scales/app.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scales/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scales/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scales/tsconfig.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mobile/components/MobileCompany.js" afterPath="$PROJECT_DIR$/Mobile/components/MobileCompany.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mobile/__tests__/CounterButton-test.js" afterPath="$PROJECT_DIR$/Mobile/__tests__/testClass-test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,33 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testClass-test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mobile/__tests__/testClass-test.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scales/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+            <state relative-caret-position="154">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SnapShot-test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mobile/__tests__/SnapShot-test.js">
+      <file leaf-file-name="app.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scales/app.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-              <folding>
-                <element signature="e#15#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientStorage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mobile/classes/clientStorage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -88,8 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ReactClockSVG/clock.js" />
-        <option value="$PROJECT_DIR$/ReactClockSVG/index.html" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/react-clock-svg/js/darfild.js" />
         <option value="$PROJECT_DIR$/react-clock-svg/jsx/darfild.jsx" />
@@ -139,6 +125,8 @@
         <option value="$PROJECT_DIR$/Mobile/classes/clientStorage.js" />
         <option value="$PROJECT_DIR$/Mobile/__tests__/testClass-test.js" />
         <option value="$PROJECT_DIR$/Mobile/__tests__/SnapShot-test.js" />
+        <option value="$PROJECT_DIR$/Scales/index.html" />
+        <option value="$PROJECT_DIR$/Scales/app.ts" />
       </list>
     </option>
   </component>
@@ -162,8 +150,9 @@
     <handled-path value="$PROJECT_DIR$/ishop3/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="580" />
-    <option name="width" value="1340" />
+    <option name="x" value="853" />
+    <option name="y" value="11" />
+    <option name="width" value="1071" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -189,29 +178,6 @@
             <path>
               <item name="FD3-Svidunovich" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD3-Svidunovich" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD3-Svidunovich" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD3-Svidunovich" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD3-Svidunovich" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD3-Svidunovich" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD3-Svidunovich" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD3-Svidunovich" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD3-Svidunovich" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD3-Svidunovich" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,11 +205,11 @@
       <recent name="D:\frontEnd\FD3\FD3-Svidunovich\ishop3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\frontEnd\FD3\FD3-Svidunovich\Scales" />
       <recent name="D:\frontEnd\FD3\FD3-Svidunovich\Mobile\__tests__" />
       <recent name="D:\frontEnd\FD3\FD3-Svidunovich\Mobile" />
       <recent name="D:\frontEnd\FD3\FD3-Svidunovich" />
       <recent name="D:\frontEnd\FD3\FD3-Svidunovich\RainbowFrame\components" />
-      <recent name="D:\frontEnd\FD3\FD3-Svidunovich\RainbowFrame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +266,7 @@
       <workItem from="1539493813353" duration="3815000" />
       <workItem from="1539545628619" duration="21504000" />
       <workItem from="1540057767671" duration="1963000" />
-      <workItem from="1540839249734" duration="28270000" />
+      <workItem from="1540839249734" duration="37448000" />
     </task>
     <task id="LOCAL-00001" summary="CSSHeader">
       <created>1537124385283</created>
@@ -449,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541099931409</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="try to test Mobile, snapShot is't successful">
+      <created>1541279271509</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1541279271509</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -467,18 +440,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204432000" />
+    <option name="totallyTimeSpent" value="213610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="580" y="0" width="1340" height="1040" extended-state="0" />
+    <frame x="853" y="11" width="1071" height="1040" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20694864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12701422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2351672" sideWeight="0.1691843" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2351672" sideWeight="0.17061612" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.9203125" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.88670695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2351672" sideWeight="0.83081573" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2351672" sideWeight="0.8293839" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -493,6 +467,14 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../FD3-TypeScript-V3-master/C_TS3/TS350_class_extend/app.js.map" />
+        <option value="$PROJECT_DIR$/../FD3-TypeScript-V3-master/C_TS3/TS350_class_extend/app.js" />
+        <option value="$PROJECT_DIR$/Scales/app.js.map" />
+        <option value="$PROJECT_DIR$/Scales/app.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -539,7 +521,8 @@
     <MESSAGE value="mobile edit and delete" />
     <MESSAGE value="mobile edit ready" />
     <MESSAGE value="edit fixed bug &quot;clear edits with filter&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit fixed bug &quot;clear edits with filter&quot;" />
+    <MESSAGE value="try to test Mobile, snapShot is't successful" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to test Mobile, snapShot is't successful" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -548,14 +531,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-clock-svg/js/clock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/react-clock-svg/jsx/clock.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -1043,7 +1018,7 @@
         <state relative-caret-position="506">
           <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
             <element signature="e#673#711#0" expanded="false" />
             <element signature="e#733#774#0" expanded="false" />
             <element signature="e#817#1250#0" expanded="false" />
@@ -1058,7 +1033,25 @@
         <state relative-caret-position="858">
           <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mobile/__tests__/testClass-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="48" column="44" lean-forward="false" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mobile/__tests__/SnapShot-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1071,21 +1064,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mobile/__tests__/testClass-test.js">
+    <entry file="file://$PROJECT_DIR$/Scales/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        <state relative-caret-position="154">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mobile/__tests__/SnapShot-test.js">
+    <entry file="file://$PROJECT_DIR$/Scales/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-          <folding>
-            <element signature="e#15#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
