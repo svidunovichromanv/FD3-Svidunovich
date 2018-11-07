@@ -37,7 +37,12 @@ class ScalesStorageEngineLocalStorage implements IStorageEngine {
     tempStorege:Array<Product>;
     constructor(key:string) {
         this.key=key;
-        this.tempStorege=JSON.parse(localStorage.getItem(this.key));
+        if(localStorage.getItem(this.key)){
+            this.tempStorege=JSON.parse(localStorage.getItem(this.key));
+        }else {
+            this.tempStorege=[];
+        }
+
     }
     addItem(item:Product):void {
         let stringItem:string;

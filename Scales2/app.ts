@@ -10,19 +10,19 @@ class Scales {
     addProduct(p:IScalable):void {
         this.products.push(p);
     }
-    getSumScale():void{
+    getSumScale():number{
         let summ:number=0;
         for(let i:number=0; i<this.products.length; i++){
             summ+=this.products[i].getScale();
         }
-        console.log(summ);
+        return summ;
     }
-    getNameList():void{
+    getNameList():string{
         let list:string="";
         for(let i:number=0; i<this.products.length; i++){
             list+=this.products[i].getName();
         }
-        console.log(list);
+        return list;
     }
 }
 
@@ -65,21 +65,21 @@ const apple2:Apple=new Apple("malinka1", 1);
 const tomat1:Tomato=new Tomato("cheri2", 2);
 const tomat2:Tomato=new Tomato("orange4", 4);
 scale1.addProduct(apple1);
-scale1.getNameList();
-scale1.getSumScale();
+console.log(scale1.getNameList());
+console.log(scale1.getSumScale());
 
 scale1.addProduct(apple2);
-scale1.getNameList();
-scale1.getSumScale();
+console.log(scale1.getNameList());
+console.log(scale1.getSumScale());
 
 scale1.addProduct(tomat1);
-scale1.getNameList();
-scale1.getSumScale();
+console.log(scale1.getNameList());
+console.log(scale1.getSumScale());
 
 scale1.addProduct(tomat2);
-scale1.getNameList();
-scale1.getSumScale();
+console.log(scale1.getNameList());
+console.log(scale1.getSumScale());
 
 scale1.addProduct(apple1);
-scale1.getNameList();
-scale1.getSumScale();
+console.log(scale1.getNameList());
+console.log(scale1.getSumScale());
